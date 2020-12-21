@@ -1,12 +1,29 @@
 <resources>
     <string name="app_name">BaseApp</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="lost_password">¿Olvidate tu contraseña? entra</string>
+    <string name="here">Aquí</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="sign_out">Registrarse</string>
+    <string name="name">Nombre</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="legal_information">Al registrarte aceptas nuestros terminos y condiciones de privacidad y tratado de datos</string>
+    <string name="help">Ayuda</string>
+    <string name="profile">Perfil</string>
+    <string name="config">Configuración</string>
+    <string name="history">Historial</string>
+
+
+
 </resources>
